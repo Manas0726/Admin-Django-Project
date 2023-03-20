@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="update.css" />
+    <title>Welcome Admin</title>
+  </head>
+  <body>
+    <div class="navBar">
+      <h1>Admin Panel</h1>
+      <nav>
+        <ul class="ulList">
+          <li class="liList">
+            <a href="" class="modify"
+              >Modify <i class="fas fa-caret-down"></i
+            ></a>
+
+            <div class="dropdown-menu">
+              <ul class="ulSubList">
+                <li class="liSublist"><a href="#">Add</a></li>
+                <li>
+                  <a href="#">Update <i class="fas fa-caret-right"></i></a>
+
+                  <div class="dropdown-menu-1">
+                    <ul class="Uldropdown-menu-1">
+                      <li><a href="#">Update Keyword</a></li>
+                      <li><a href="#">Update Answer</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="">Delete</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="liList"><a href="">Analytics</a></li>
+          <li class="liList"><a href="">FAQ's</a></li>
+          <button>Login</button>
+          <button>SignUp</button>
+
+          <div class="containerImg">
+            <img src="/Admin GUI/user-icon.png" alt="" class="userImg" />
+          </div>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="updateSection">
+      <table  style="width: 500px" border="1">
+        <thead></thead>
+        <tbody>
+          <tr>
+            <td>
+              <label for="">Choose the Keyword: </label>
+            </td>
+
+            <td>
+              <select name="" id="">
+                <option selected disabled>Choose from here</option>
+                <option value="Admission">Admission</option>
+                <option value="Admission">Hostel</option>
+                <option value="Admission">Scholarship</option>
+                <option value="Admission">Admission</option>
+                <option value="Admission">Admission</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="Choose">Choose the SubKeyword: </label>
+            </td>
+              
+            <td>
+              <select name="" id="">
+                <option selected disabled>Choose from here</option>
+                <option value="Admission">Admission</option>
+                <option value="Admission">Hostel</option>
+                <option value="Admission">Scholarship</option>
+                <option value="Admission">Admission</option>
+                <option value="Admission">Admission</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="100">
+              <div class="jsonList">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quo alias voluptatibus, architecto obcaecati accusamus modi accusantium maxime aliquam odit repudiandae, magnam quod, eaque distinctio harum facilis necessitatibus non natus!</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="">New Name for Keyword: </label>
+            </td>
+
+            <td>
+              <input type="text" />
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="100">
+              <button class="submitButton" type="submit">Submit</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- <div class="updateContainer">
+        <div class="majorKeyword">
+          <label for="Choose">Choose the Keyword: </label>
+          <select name="" id="">
+            <option selected disabled>Choose from here</option>
+            <option value="Admission">Admission</option>
+            <option value="Admission">Hostel</option>
+            <option value="Admission">Scholarship</option>
+            <option value="Admission">Admission</option>
+            <option value="Admission">Admission</option>
+          </select>
+        </div>
+
+        <div class="subKeyword">
+          <label for="Choose">Choose the SubKeyword: </label>
+          <select name="" id="">
+            <option selected disabled>Choose from here</option>
+            <option value="Admission">Admission</option>
+            <option value="Admission">Hostel</option>
+            <option value="Admission">Scholarship</option>
+            <option value="Admission">Admission</option>
+            <option value="Admission">Admission</option>
+          </select>
+        </div>
+
+        <div class="jsonList">List:</div>
+
+        <div class="subKeywordChage">
+          <label for="">New Name for Keyword: </label>
+          <input type="text" />
+        </div>
+
+        <div class="submitButton">
+          <button>Submit</button>
+        </div>
+      </div> -->
+    </div>
+  </body>
+</html>
